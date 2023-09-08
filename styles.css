@@ -1,0 +1,122 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #ffffff;
+}
+.nav-barr{
+  display: flex;
+  align-items: center;
+  /*background-color: #ffff;*/
+  color: black;
+  padding: 10px;
+  font-size: 19px;
+}
+.nav-barr img {
+  width: 110px;
+  margin-left: 10px;
+}
+.nav-barr ul{
+  list-style-type: none;
+  margin-left: 20%;
+  padding-top: 20px;
+  padding-bottom: 0;
+  display: flex;
+}
+.nav-barr li {
+  margin-right: 20px;
+}
+.nav-barr{
+  text-decoration: none;
+}
+.nav-barr a{
+  text-decoration: none;
+  color: black;
+  margin-left: 40%;
+}
+.choi-lang{
+  margin-right: 100px;
+}
+select {
+  /*padding: 10px;*/
+  font-size: 16px;
+  border: none; /* Supprime complètement la bordure */
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  width: 10px; /* Ajustez la largeur selon vos besoins */
+  outline: none; /* Supprime le contour lorsqu'il est en focus */
+}
+
+/* Style pour le select lorsqu'il est en focus (sélectionné) */
+select:focus {
+  border: none; /* Supprime la bordure en focus */
+}
+.contact-button {
+  background-color: #f80944;
+  color:black;
+  border: none;
+  padding:0;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.nav-barr a:hover{
+  text-decoration: underline;
+  color: #e0053c;
+}
+
+/*end style nav & head*/
+/*star style section1 */
+.section{
+  background-color: #fff;
+}
+.section h1{
+  text-align: center;
+  font-size: 27px;
+  font-weight: 700;
+  color: #e0053c;
+}
+.section h2{
+  text-align: end;
+  margin-right: 25px;
+  color: #ffffff;
+  font-size: 25px;
+}
+.section p{
+  color: black;
+}
+.sect1{
+  display: flex;
+  justify-content: space-around; /* Place les div côte à côte avec espace entre eux */
+  align-items: center; /* Centre le contenu vertical dans la section */
+  padding: 20px;
+  background-color: #ffff;
+}
+  
+.blok1, .blok2{
+  flex: 1; /* Chaque div occupe la moitié de l'espace disponible */
+  padding: 10px;
+  background-color: #fff;
+  /*border: 1px solid #e0053c;*/
+  box-sizing: border-box;
+  margin-right: 20px; /* Espacement entre les div */
+}
+.blok1{
+  -webkit-border-bottom-right-radius: 200px;
+  -moz-border-radius-bottomright: 200px;
+  border-bottom-right-radius: 200px;
+  box-shadow: 10px 20px 3px 0.5px #e0053c;
+  margin-right: 20px;
+  background-color: #e0053c;
+}
+.blok2{
+  justify-content: flex-end;
+  box-shadow : 0 0 10px 5px red;
+}

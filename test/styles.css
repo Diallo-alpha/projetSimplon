@@ -1,0 +1,156 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header{
+    background-color: #ffff;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.navbar img{
+    width: 210px;
+    padding: 10px 10px;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    list-style-type: none;
+    margin-left: 50px;
+}
+.navbar ul li a{
+    display: flex;
+    padding: 20px;
+    margin-top: 10px;
+    justify-content: space-between;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+.navbar ul li a:hover{
+    color: #e0053c;
+}
+.search-box{
+    padding-top: 20px;
+    margin-left: 10px;
+}
+select{
+    border: none;
+    padding-top: 20px;
+}
+.btn btn-danger{
+    padding-top: 20px;
+}
+/*End style mode */
+/*start style section1*/
+.H1{
+    color:#e0053c;
+    text-align: center;
+}
+/*section1*/
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.blok1 .an{
+    text-align: end;
+    margin-left: auto;
+    padding-top: 55px;
+}
+.blok1{
+    flex: 1;
+    padding-top: 20px;
+}
+.blok2{
+    flex: 1;
+    padding-top: 20px;
+    background-color: #ffff;
+    box-shadow: 0 4px 6px rgba(O, 0, 0, 0.5);
+}
+.card{
+    font-size: 16px;
+    color: #ffff;
+}
+.container .blok2 p{
+    height: 250px;
+    width: 300px;
+    padding: 10px;
+    margin-left: auto;
+    border: none;
+}
+/*end section1*/
+/*star style section2*/
+.section1{
+    background-color: white;
+}
+h2{
+    text-align: center;
+    color: #e0053c;
+}
+.conteneur{
+    display: flex;
+    justify-content: space-between;
+}
+.blok-vid{
+    flex: 1;
+    padding: 20px;
+    margin-left: 30px;
+}
+.blok-vid video{
+    margin: auto;
+    height: 300px;
+    width: 570px;
+    overflow: hidden;
+}
+.blok-text{
+    flex: 1;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: 0;
+}
+.blok-text p{
+    width: 500px;
+}
+.blok-text p h2{
+    padding: 10px;
+}
+.Titre2{
+    font-weight: 700;
+    font-size: 16px;
+    color: #e0053c;
+}
+.Titre{
+    padding: 20px;
+     color: #e0053c;
+}
+/*end style section2*/
+/*start section3*/
+.titre-pilier{
+    text-align: center;
+    margin: 20px;
+    color: #e0053c;
+}
+.pilier-container{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.pliers{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 150px 150px 150px;
+    grid-gap: 50px;
+    margin-left: 90px;
+}
+.bold{
+    color: black;
+    font-weight: 600;
+}
+.element3, .element{
+   padding-bottom: 20px;
+}
